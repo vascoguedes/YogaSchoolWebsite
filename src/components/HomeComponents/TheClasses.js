@@ -35,7 +35,7 @@ function TheClasses() {
       <div className='cards' id='questions' data-spy="scroll" data-target="#navbar" data-offset="0">
           <h1>As nossas aulas</h1>
           
-            <Carousel className="slider pt-2 p-5 w-100" responsive={responsive} infinite={true} autoPlay={true} showDots={true}>
+            <Carousel className="slider pt-2 p-4 w-100" responsive={responsive} infinite={true} autoPlay={true} showDots={true}>
                 <CardItem
                         name='VINYASA YOGA'
                         image={image1}

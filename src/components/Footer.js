@@ -11,7 +11,7 @@ function Footer() {
         <div class='row line w-100' />
         
         <div class='row p-3 w-100 d-flex align-items-center justify-content-center'>
-          <img class='col-2' src={logo}/>
+          <img class='col-2 p-2' src={logo}/>
 
           <div class='col-6 rightInfo text-end'>
             <p>Praceta Joaquim Fernandes Gomes, Vila Nova de Gaia</p>

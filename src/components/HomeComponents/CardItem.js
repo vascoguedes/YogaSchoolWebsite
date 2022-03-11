@@ -10,8 +10,8 @@ function CardItem(props) {
 
         <img class='card_image' src={props.image}/>
 
-        <div class='card_tag'>
-          <h5>{props.name}</h5>
+        <div class='card_tag p-3'>
+          <h4 class='m-0'>{props.name}</h4>
         </div>
       </div>
     </li>

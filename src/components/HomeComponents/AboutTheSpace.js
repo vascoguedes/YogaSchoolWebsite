@@ -9,7 +9,7 @@ function AboutTheSpace() {
 
       <div class='container d-flex align-items-center justify-content-center'>
 
-        <div class='col-5'>
+        <div class='text col-5'>
 
           <h1>Sobre o nosso espaço...</h1>
           <p class='pt-2'>
@@ -19,7 +19,7 @@ function AboutTheSpace() {
 
         </div>
 
-        <div class='picFrame col-3 offset-2 p-3'>
+        <div class='picFrame col-3 offset-1 p-3'>
 
           <div class=''>
             <img class='schoolPic' src={schoolPic} />

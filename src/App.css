@@ -16,6 +16,7 @@
   background-color: rgba(255, 255, 255, 0.95);
   padding: 5px 50px 0 0;
   position: fixed !important;
+  z-index: 1;
 }
 
 
@@ -86,6 +87,14 @@
   background-color: #AA9393;
 }
 
+.home-aboutTheSpace .text >h1 {
+  font-size: 50px;
+}
+
+.home-aboutTheSpace .text >p {
+  font-size: 22px;
+}
+
 
 .home-aboutTheSpace .schoolPic {
   background-size: contain;
@@ -112,13 +121,28 @@
 }
 
 .homeTheClasses .bookClass:hover {
-  font-size: 27px;
+  color: #eee6e6;
+  background-color: #9a7f7fe1;
+  cursor: pointer;
 }
 
+
 /* ---- THE CARDS ---- */
+
+.card_container {
+  
+  filter: drop-shadow(2px 2px 5px #8f8f8fa1);
+}
 
 .card_container .card_image {
   width: 100%;
   background-size: contain;
 }
 
+.card_container .card_tag {
+  background-color: #e6dfdd;
+}
+
+.card_container >h4 {
+  color: #6C6060;
+}
