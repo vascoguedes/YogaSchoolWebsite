@@ -95,3 +95,30 @@
 .home-aboutTheSpace .picFrame {
   background-color: #faf6f6;
 }
+
+
+/* ----------------- THE CLASSES ---------------- */
+
+.homeTheClasses .bookClass {
+
+  background-color: #9A7F7F;
+  width: 17.5%;
+  font-size: 25px;
+  color: #EFEFEF;
+  margin: 0 auto 0 auto;
+  text-align: center;
+
+  filter: drop-shadow(2px 2px 2px #8f8f8f);
+}
+
+.homeTheClasses .bookClass:hover {
+  font-size: 27px;
+}
+
+/* ---- THE CARDS ---- */
+
+.card_container .card_image {
+  width: 100%;
+  background-size: contain;
+}
+
