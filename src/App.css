@@ -5,6 +5,10 @@
   font-family: High Tower Text;
 }
 
+* >p {
+  font-size: 20px;
+}
+
 /* ---------------------------------------------- Navbar ------------------------------------------------ */
 
 .navbar {
@@ -33,12 +37,9 @@
 .footer {
   width: 100%;
   font-size: 18px;
-}
 
-.footer .information {
   color: #ffffff;
   background-color: #9a7f7f;
-  height: 180px;
 }
 
 .footer .line {
