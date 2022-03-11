@@ -126,6 +126,11 @@
   cursor: pointer;
 }
 
+.homeTheClasses .cards >h1 {
+  font-size: 50px !important;
+  color: #000000;
+}
+
 
 /* ---- THE CARDS ---- */
 
