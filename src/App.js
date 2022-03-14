@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-d
 import Home from './pages/Home';
 import NotFoundPage from './pages/NotFoundPage';
 import Classes from './pages/Classes';
+import PlansPrices from './pages/PlansPrices';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/classes' exact component={Classes} />
+          <Route path='/plans&prices' exact component={PlansPrices} />
           <Route path="/404" component={NotFoundPage} />
           <Redirect to="/404" />
         </Switch>
