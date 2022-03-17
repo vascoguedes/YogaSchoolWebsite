@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import NotFoundPage from './pages/NotFoundPage';
 import Classes from './pages/Classes';
 import PlansPrices from './pages/PlansPrices';
+import Contacts from './pages/Contacts';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
           <Route path='/' exact component={Home} />
           <Route path='/classes' exact component={Classes} />
           <Route path='/plans&prices' exact component={PlansPrices} />
+          <Route path='/contacts' exact component={Contacts} />
           <Route path="/404" component={NotFoundPage} />
           <Redirect to="/404" />
         </Switch>

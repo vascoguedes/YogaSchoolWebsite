@@ -207,7 +207,7 @@
 }
 
 
-/* ----------------- Plans&Prices ---------------- */
+/* ---------------------------------------------- Plans&Prices ------------------------------------------------ */
 
 .plansPrices {
   width: 100%;
@@ -277,4 +277,31 @@
   font-size: 20px;
   color: white;
   background-color: #9A7F7F;
+}
+
+.plansPrices .informations {
+  width: 65%;
+  margin-left: 20%;
+}
+
+.plansPrices .monthlyCharge {
+  color: #9A7F7F;
+  margin: 0 auto 0 0;
+}
+
+.plansPrices .classesPerWeek {
+  color: #9A7F7F;
+}
+
+
+
+/* ---------------------------------------------- Contacts ------------------------------------------------ */
+
+.contacts {
+  width: 100%;
+  background-color: #F2F2F2;
+}
+
+.contacts .image {
+  margin-left: auto;
 }
