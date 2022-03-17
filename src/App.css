@@ -220,7 +220,6 @@
 }
 
 .plansPrices .image {
-  height: 900px;
   object-fit: cover;
 }
 
@@ -234,4 +233,48 @@
   margin: 0 auto 0 auto;
   background-color: #F2F2F2;
   border: 2px solid #9A7F7F;
+}
+
+.plansPrices .button1:hover, .button2:hover {
+  cursor: pointer;
+}
+
+.plansPrices .table {
+  margin: 0 auto 0 auto;
+  width: 60%;
+  border-collapse: separate;
+}
+
+.plansPrices .table .darker {
+  font-size: 20px;
+  color: white;
+  background-color: #9A7F7F;
+  font-weight: normal;
+}
+
+.plansPrices .table .lighter {
+  font-size: 20px;
+  color: #9A7F7F;
+  background-color: #CCC5C3;
+  font-weight: normal;
+}
+
+.plansPrices .box_container {
+  margin: 0 auto 0 auto;
+}
+
+.plansPrices .element {
+  border: 2px solid #9A7F7F;
+}
+
+.plansPrices .top {
+  font-size: 30px;
+  color: #9A7F7F;
+  background-color: white;
+}
+
+.plansPrices .bot {
+  font-size: 20px;
+  color: white;
+  background-color: #9A7F7F;
 }
