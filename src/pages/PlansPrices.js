@@ -8,7 +8,7 @@ import image from '../images/IMG_1638.JPG'
 function PlansPrices() {
 
 
-    const [option, setOption] = useState(true);
+    const [option, setOption] = useState(false);
 
     return (
     <>

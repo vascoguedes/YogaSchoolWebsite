@@ -305,3 +305,38 @@
 .contacts .image {
   margin-left: auto;
 }
+
+.contacts .options {
+  background-color: #E9E9E9;
+}
+
+.contacts .option {
+  margin: 0 auto 0 auto;
+  border: 0px;
+  background-color: #E9E9E9;
+}
+
+.contacts .selected {
+  background-color: white;
+  padding: 0 20px;
+}
+
+.contacts .formInput {
+  color: #705f5f;
+  border: none;
+  background: none;
+  border-bottom: 1px solid #9A7F7F;
+}
+
+.contacts .formInputRight {
+  margin-left: auto;
+}
+
+.contacts .formInput::placeholder {
+  color: #ac9393;
+  border: none;
+}
+
+.contacts .formInput::backdrop {
+  border: none;
+}
