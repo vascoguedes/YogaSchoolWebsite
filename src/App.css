@@ -302,8 +302,17 @@
   background-color: #F2F2F2;
 }
 
+.contacts .form >h1 {
+  color: #9A7F7F;
+}
+
+.contacts .form >h5 {
+  color: #9A7F7F;
+}
+
 .contacts .image {
   margin-left: auto;
+  height: 100%;
 }
 
 .contacts .options {
@@ -338,5 +347,11 @@
 }
 
 .contacts .formInput::backdrop {
+  border: none;
+}
+
+.contacts .formInputSelect {
+  padding: 10px;
+  background-color: #E9E9E9;
   border: none;
 }
