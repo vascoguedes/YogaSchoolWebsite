@@ -355,3 +355,34 @@
   background-color: #E9E9E9;
   border: none;
 }
+
+/* ---------------------------------------------- 404 ------------------------------------------------ */
+.NotFoundPage{
+  background-color: #F2F2F2 ;
+
+}
+.NotFoundPage .text{
+  padding-left: 7em;
+  margin-top: 0em;
+}
+
+.NotFoundPage h1{
+  color: #AA9393;
+  font-family: 'High Tower Text';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 96px;
+}
+.NotFoundPage h3{
+  color: #AA9393;
+  font-family: 'High Tower Text';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.NotFoundPage .image {
+  object-fit: contain;
+  padding-right: 3em;
+  
+}
