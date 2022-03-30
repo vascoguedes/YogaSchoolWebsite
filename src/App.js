@@ -16,7 +16,9 @@ function App() {
           <Route path='/' exact component={Home} />
           <Route path='/classes' exact component={Classes} />
           <Route path='/plans&prices' exact component={PlansPrices} />
-          <Route path='/contacts' exact component={Contacts} />
+          <Route path='/contacts/1' exact component={Contacts} />
+          <Route path='/contacts/2' exact component={Contacts} />
+          <Route path='/contacts/3' exact component={Contacts} />
           <Route path="/404" component={NotFoundPage} />
           <Redirect to="/404" />
         </Switch>

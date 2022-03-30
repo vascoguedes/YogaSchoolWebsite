@@ -17,7 +17,7 @@ class NavBar extends React.Component{
               <Nav.Link className={window.location.pathname === '/' ? 'selected' : ''} href={"/"}>Página Inicial</Nav.Link>
               <Nav.Link className={window.location.pathname === '/classes' ? 'selected' : ''} href={"/classes"}>Aulas</Nav.Link>
               <Nav.Link className={window.location.pathname === '/plans&prices' ? 'selected' : ''} href={"/plans&prices"}>Planos e preços</Nav.Link>
-              <Nav.Link className={window.location.pathname === '/contacts' ? 'selected' : ''} href={"/contacts"}>Contactos</Nav.Link>
+              <Nav.Link className={['/contacts/1', '/contacts/2', '/contacts/3'].includes(window.location.pathname)  ? 'selected' : ''} href={"/contacts/1"}>Contactos</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

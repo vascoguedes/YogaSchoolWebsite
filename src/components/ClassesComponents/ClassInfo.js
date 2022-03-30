@@ -5,7 +5,7 @@ import schoolPic from '../../images/place.png'
 function ClassInfo(props) {
 
   return (
-    <div class="classes-classInfo p-5 w-100">
+    <div class="classes-classInfo p-5 w-100" id={props.id}>
 
       <div class='container w-100 '>
 
@@ -27,7 +27,7 @@ function ClassInfo(props) {
             <p>{props.duration}</p>
             <p>{props.price}</p>
 
-            <div class='bookSession p-1'>
+            <div class='bookSession p-1' onClick={() => window.location.pathname = '/contacts/2'}>
               Marcar Sessão
             </div>
 

@@ -6,7 +6,7 @@ function CardItem(props) {
   return (
     <li className='card_container p-5'>
 
-      <div class='card_body'>
+      <div class='card_body' onClick={() => window.location.href = '/classes#' + props.id}>
 
         <img class='card_image' src={props.image}/>
 

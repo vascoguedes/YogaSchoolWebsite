@@ -76,7 +76,7 @@ function PlansPrices() {
           <div class='button1 col-3 p-2 mt-5' onClick={() => setOption(!option)}>
             {option ? 'Planos' : 'Outras Ofertas'}
           </div>
-          <div class='button2 col-3 mt-2 p-2 mb-5'>
+          <div class='button2 col-3 mt-2 p-2 mb-5' onClick={() => window.location.pathname = '/contacts/2'}>
             Marcar Sessão
           </div>
           

@@ -152,7 +152,10 @@
   color: #6C6060;
 }
 
-
+.homeTheClasses .card_body:hover {
+  cursor: pointer;
+  width: 100.5%;
+}
 
 
 /* ---------------------------------------------- Classes ------------------------------------------------ */
@@ -204,6 +207,11 @@
   width: 27%;
   background-color: white;
   border: 2px solid #9A7F7F;
+}
+
+.classes-classInfo .bookSession:hover {
+  cursor: pointer;
+  background-color: rgb(246, 246, 246);
 }
 
 
@@ -312,7 +320,7 @@
 
 .contacts .image {
   margin-left: auto;
-  height: 100%;
+  background-size: cover;
 }
 
 .contacts .options {
@@ -335,6 +343,7 @@
   border: none;
   background: none;
   border-bottom: 1px solid #9A7F7F;
+  margin-top: 20px;
 }
 
 .contacts .formInputRight {
@@ -354,4 +363,13 @@
   padding: 10px;
   background-color: #E9E9E9;
   border: none;
+  margin-top: 20px;
+}
+
+.contacts .form .right {
+  float: right;
+}
+
+.contacts .form .left {
+  float: left;
 }

@@ -3,21 +3,20 @@ import '../App.css';
 import Navbar from '../components/Navbar.js'
 import Footer from '../components/Footer';
 
-import image from '../images/IMG_1580.JPG'
+import image from '../images/IMG_1580_2.jpg'
 
-function Contacts(params) {
+function Contacts() {
 
-
-    const [option, setOption] = useState(params.option ? params.option : 3);
+    const [option, setOption] = useState(window.location.pathname.charAt(10));
     console.error(option);
 
     return (
     <>
       <Navbar/>
 
-      <div class='contacts w-100 m-0 pt-5 p-0 d-flex align-items-center'>
+      <div class='contacts w-100 m-0 pt-5 p-0 d-flex'>
 
-        <div class='form col-5 p-5 m-5 col-offset-2'>
+        <div class='form col-5 p-5 mt-5 mb-5 offset-2'>
           <h1>Contacta-me</h1>
           <h5>Se tiveres alguma dúvida ou precises de alguma informação, não hesites em mandar-me uma mensagem. <br/>Respondo o mais breve possível.</h5>
 
@@ -32,10 +31,10 @@ function Contacts(params) {
             {option == 1 ? 
 
               <>
-                <input class='row mt-4 formInput w-100' placeholder='Nome'/>
-                <input class='row mt-4 formInput w-100' placeholder='Telefone'/>
-                <input class='row mt-4 formInput w-100' placeholder='Email'/>
-                <textarea class='row mt-4 formInput w-100' placeholder='A tua mensagem'/>
+                <input class='formInput w-100' placeholder='Nome'/>
+                <input class='formInput w-100' placeholder='Telefone'/>
+                <input class='formInput w-100' placeholder='Email'/>
+                <textarea class='formInput w-100' placeholder='A tua mensagem'/>
               </>
 
               :
@@ -44,83 +43,82 @@ function Contacts(params) {
 
               <>
                 <div class='d-flex w-100'>
-                  <input class='row mt-4 formInput col-5' placeholder='Nome'/>
-                  <input class='row mt-4 formInput formInputRight col-5' placeholder='Telefone'/>
+                  <input class='formInput col-6' placeholder='Nome'/>
+                  <input class='formInput formInputRight col-5' placeholder='Telefone'/>
                 </div>
-                <input class='row mt-4 formInput w-100' placeholder='Email'/>
+                <input class='formInput w-100' placeholder='Email'/>
 
                 <div class='w-100 mt-1'>
-                  <select name="Tipo de aula" class='formInputSelect col-3 m-3'>
+                  <select name="Tipo de aula" class='formInputSelect col-3'>
                     <option value="VINYASA YOGA">VINYASA YOGA</option>
                     <option value="POWER VINYASA YOGA">POWER VINYASA YOGA</option>
                     <option value="YOGA PARA INICIANTES">YOGA PARA INICIANTES</option>
                     <option value="YOGA RESTAURATIVO">YOGA RESTAURATIVO</option>
                   </select>
 
-                  <select name="Método de pagamento" class='formInputSelect col-3 m-3'>
+                  <select name="Método de pagamento" class='formInputSelect col-3 offset-1'>
                     <option value="Dinheiro">Dinheiro</option>
                     <option value="MB Way">MB Way</option>
                   </select>
 
-                  <input class='formInputSelect col-3 m-3' type="datetime-local" id="meeting-time"
+                  <input class='formInputSelect col-3 offset-1' type="datetime-local" id="meeting-time"
                     name="meeting-time" value="2018-06-12T19:30"
                     min="2018-06-07T00:00" max="2018-06-14T00:00"></input>
                 </div>
 
-                <textarea class='row  formInput w-100' placeholder='Notas'/>
+                <textarea class='formInput w-100' placeholder='Notas'/>
 
               </>
 
               : 
 
               <>
-                <div class='d-flex w-100'>
-                  <input class='row mt-4 formInput col-5' placeholder='Nome'/>
-                  <input class='row mt-4 formInput formInputRight col-5' placeholder='Telefone'/>
+                <div class='d-flex w-100 mt-3 mb-2'>
+                  <input class='formInput col-6' placeholder='Nome'/>
+                  <input class='formInput formInputRight col-5' placeholder='Telefone'/>
                 </div>
 
-                <div class='d-flex w-100'>
-                  <input class='row formInput col-5' placeholder='Email'/>
-                  <input class='formInputSelect m-4 mb-0' type="datetime-local" id="meeting-time"
-                    name="meeting-time" value="2018-06-12T19:30"
-                    min="2018-06-07T00:00" max="2018-06-14T00:00"/>
-                </div>
+                <input class='formInput w-100' placeholder='Email'/>
 
                 <div class='d-flex w-100'>
-                  <input class='row mt-4 formInput col-5' placeholder='Morada'/>
-                  <input class='row mt-4 formInput formInputRight col-5' placeholder='NIF'/>
+                  <input class='formInput col-6' placeholder='Morada'/>
+                  <input class='formInput formInputRight col-5' placeholder='NIF'/>
                 </div>
 
-                <div class='w-100 mt-1'>
-                  <select name="Tipo de Plano" class='formInputSelect m-3'>
+                <div class='w-100'>
+                  <select name="Tipo de Plano" class='formInputSelect'>
                     <option value="VINYASA YOGA">VINYASA YOGA</option>
                     <option value="POWER VINYASA YOGA">POWER VINYASA YOGA</option>
                     <option value="YOGA PARA INICIANTES">YOGA PARA INICIANTES</option>
                     <option value="YOGA RESTAURATIVO">YOGA RESTAURATIVO</option>
                   </select>
 
-                  <select name="Método de pagamento" class='formInputSelect m-3'>
+                  <input class='formInputSelect offset-1' type="datetime-local" id="meeting-time"
+                    name="meeting-time" value="2018-06-12T19:30"
+                    min="2018-06-07T00:00" max="2018-06-14T00:00"/>
+                    
+                  <select name="Método de pagamento" class='formInputSelect right'>
                     <option value="Dinheiro">Dinheiro</option>
                     <option value="MB Way">MB Way</option>
                   </select>
                 </div>
                 
 
-                <textarea class='row formInput w-100' placeholder='Notas'/>                
+                <textarea class='formInput w-100' placeholder='Notas'/>                
               </>
             }
             
             <input type="checkbox" name='checkbox' class='formCheckBox m-3 mt-4'/>
             <label for="checkbox">Desejo receber informações de aulas e eventos futuros</label>
 
-            <button class='row mt-3 w-100'>Enviar</button>
+            <button class='mt-3 w-100'>Enviar</button>
           </form>
 
           
 
         </div>
 
-        <img class='image col-5' src={image}/>
+        <img class='image col-4' src={image}/>
         
       </div>
 

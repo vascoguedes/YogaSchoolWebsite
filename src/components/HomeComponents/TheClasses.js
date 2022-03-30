@@ -39,23 +39,27 @@ function TheClasses() {
                 <CardItem
                         name='VINYASA YOGA'
                         image={image1}
+                        id="1"
                       />
                 <CardItem
                         name='POWER VINYASA YOGA'
                         image={image2}
+                        id="2"
                       />
                 <CardItem
                         name='YOGA PARA INICIANTES'
                         image={image3}
+                        id="3"
                       />
                 <CardItem
                         name='YOGA RESTAURATIVO'
                         image={image4}
+                        id="4"
                       />                  
             </Carousel> 
       </div>
 
-      <div class='bookClass mt-5 p-3'>
+      <div class='bookClass mt-5 p-3' onClick={() => window.location.pathname = '/contacts/2'}>
         Marcar aula
       </div>
 
