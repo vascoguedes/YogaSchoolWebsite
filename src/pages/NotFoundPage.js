@@ -1,19 +1,26 @@
 import React from 'react';
 import '../App.css';
-
+import Footer from '../components/Footer';
+import NavBar from '../components/Navbar';
+import image from '../images/illust.jpg';
 
 class NotFoundPage extends React.Component {
 
   render() {
-    return (
+    return (      
     <>
-      <div className='wrapper'>
-          <p className='text-center mt-5'>
-            Página não encontrada
-          </p>
-        
+    <NavBar/>
+    <div class= 'NotFoundPage h-50 p-5 w-100 d-flex'>
+      <div class='text col-6 text-left align-self-center'>
+        <h1> Ups...</h1>
+        <h3> Página não encontrada</h3>
       </div>
+      <img class='image col-6 text-right' src={image}/>
+    </div>
+    
+    <Footer/>
     </>
+   
   );
   }
   
