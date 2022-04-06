@@ -14,7 +14,7 @@
 .navbar {
   width: 100%;
   background-color: rgba(255, 255, 255, 0.95);
-  padding: 5px 50px 0 0;
+  padding: 5px 20px 0 0;
   position: fixed !important;
   z-index: 1;
 }
@@ -70,8 +70,24 @@
   color: white;
 }
 
+@media only screen and (max-width: 1300px) {
+  .home-header {
+    height: 700px;
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .home-header {
+    background-image: url("./images/IMG_15652.jpg");
+    height: 900px;
+    font-size: 2vw;
+  }
+}
+
+
 .home-header >h1 {
-  font-size: 100px;
+  font-size: 800%;
   animation: fadeIn 3s;
 }
 
@@ -111,7 +127,6 @@
 .homeTheClasses .bookClass {
 
   background-color: #9A7F7F;
-  width: 17.5%;
   font-size: 25px;
   color: #EFEFEF;
   margin: 0 auto 0 auto;
@@ -171,20 +186,24 @@
 }
 
 .classes-header >h1 {
-  font-size: 100px;
+  font-size: 700%;
   animation: fadeIn 3s;
 }
 
+@media only screen and (max-width: 800px) {
+  .classes-header {
+    font-size: 2vw;
+  }
+}
 
 /* ----------------- ClassInfo ---------------- */
 
 .classes-classInfo .element {
   filter: drop-shadow(2px 2px 2px #8f8f8f);
-  height: 550px;
 }
 
 .classes-classInfo .element .image {
-  height: 550px;
+  height: 625px;
   object-fit: cover;
   
 }
@@ -199,7 +218,6 @@
 
 .classes-classInfo .right {
   background-color: #CCC5C3;
-  height: 550px;
 }
 
 .classes-classInfo .bookSession {
@@ -386,14 +404,12 @@
 
 .NotFoundPage h1{
   color: #AA9393;
-  font-family: 'High Tower Text';
   font-style: italic;
   font-weight: 400;
   font-size: 96px;
 }
 .NotFoundPage h3{
   color: #AA9393;
-  font-family: 'High Tower Text';
   font-style: italic;
   font-weight: 400;
   font-size: 50px;

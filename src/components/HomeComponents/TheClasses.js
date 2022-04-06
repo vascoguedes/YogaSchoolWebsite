@@ -31,11 +31,11 @@ function TheClasses() {
   };
 
   return (
-    <div class="homeTheClasses text-center  p-5 w-100">
+    <div class="homeTheClasses text-center p-md-5 p-0 pt-4 w-100">
       <div className='cards' id='questions' data-spy="scroll" data-target="#navbar" data-offset="0">
           <h1>As nossas aulas</h1>
           
-            <Carousel className="slider pt-2 p-4 w-100" responsive={responsive} infinite={true} autoPlay={true} showDots={true}>
+            <Carousel className="slider p-md-4 p-0 w-100" responsive={responsive} infinite={true} autoPlay={true} showDots={true}>
                 <CardItem
                         name='VINYASA YOGA'
                         image={image1}
@@ -59,7 +59,7 @@ function TheClasses() {
             </Carousel> 
       </div>
 
-      <div class='bookClass mt-5 p-3' onClick={() => window.location.pathname = '/contacts/2'}>
+      <div class='bookClass col-lg-3 col-md-4 col-6 mt-md-5 mt-2 p-3' onClick={() => window.location.pathname = '/contacts/2'}>
         Marcar aula
       </div>
 
