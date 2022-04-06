@@ -23,7 +23,7 @@ function PlansPrices() {
 
           {option ?
             <div class='box_container d-flex justify-content-center '>
-              <div class='col-4 p-3'>
+              <div class='col-md-4 col-5 p-md-3 p-1'>
                 <div class='element'>
                   <div class='top p-4'>15€</div>
                   <div class='bot p-1'>Particular</div>
@@ -34,7 +34,7 @@ function PlansPrices() {
                 </div>
               </div>
 
-              <div class='col-4 p-3'>
+              <div class='col-md-4 col-5 p-md-3 p-1'>
                 <div class='element'>
                   <div class='top p-4'>10€</div>
                   <div class='bot p-1'>Avulso</div>
