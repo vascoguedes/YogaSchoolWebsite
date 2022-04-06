@@ -328,6 +328,10 @@
   background-color: #F2F2F2;
 }
 
+.contacts .form {
+  margin: 0 auto;
+}
+
 .contacts .form >h1 {
   color: #9A7F7F;
 }

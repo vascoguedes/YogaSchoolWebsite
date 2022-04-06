@@ -27,7 +27,7 @@ function ClassInfo(props) {
             <p>{props.duration}</p>
             <p>{props.price}</p>
 
-            <div class='bookSession p-1' onClick={() => window.location.pathname = '/contacts/2'}>
+            <div class='bookSession p-1' onClick={() => window.location.pathname = '/contacts/1'}>
               Marcar Sessão
             </div>
 

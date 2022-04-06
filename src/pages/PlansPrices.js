@@ -14,11 +14,11 @@ function PlansPrices() {
     <>
       <Navbar/>
 
-      <div class='plansPrices w-100 m-0 pt-5 p-0 d-flex'>
+      <div class='plansPrices row w-100 m-0 pt-5 p-0 d-flex'>
 
-        <img class='image col-5' src={image}/>
+        <img class='image col-lg-5 col-md-12 p-0' src={image}/>
 
-        <div class='right mt-5 p-5 col-5 offset-1 text-center'>
+        <div class='right mt-5 p-5 col-xxl-5 col-xl-6 col-lg-7 offset-0 offset-xl-1 text-center'>
           <h1 class='title mb-5'>ESCOLHE O MELHOR <br/> PLANO PARA TI</h1>
 
           {option ?
@@ -57,13 +57,13 @@ function PlansPrices() {
                     <th class='lighter p-3'>25€</th> <th class='lighter p-3'>20€</th> <th class='darker p-3'>1x</th>
                   </tr>
                   <tr>
-                    <th class='lighter p-3'>35€</th> <th class='lighter p-3'>30€</th> <th class='darker p-3'>1x</th>
+                    <th class='lighter p-3'>35€</th> <th class='lighter p-3'>30€</th> <th class='darker p-3'>2x</th>
                   </tr>
                   <tr>
-                    <th class='lighter p-3'>50€</th> <th class='lighter p-3'>45€</th> <th class='darker p-3'>1x</th>
+                    <th class='lighter p-3'>50€</th> <th class='lighter p-3'>45€</th> <th class='darker p-3'>3x</th>
                   </tr>
                   <tr>
-                    <th class='lighter p-3'>65€</th> <th class='lighter p-3'>60€</th> <th class='darker p-3'>1x</th>
+                    <th class='lighter p-3'>65€</th> <th class='lighter p-3'>60€</th> <th class='darker p-3'>livre</th>
                   </tr>
                 </table>
                 <div class='d-flex informations'>
@@ -73,10 +73,10 @@ function PlansPrices() {
                 
             </div>}
 
-          <div class='button1 col-3 p-2 mt-5' onClick={() => setOption(!option)}>
+          <div class='button1 col-sm-3 col-6 p-2 mt-5' onClick={() => setOption(!option)}>
             {option ? 'Planos' : 'Outras Ofertas'}
           </div>
-          <div class='button2 col-3 mt-2 p-2 mb-5' onClick={() => window.location.pathname = '/contacts/2'}>
+          <div class='button2 col-sm-3 col-6 mt-2 p-2 mb-5' onClick={() => window.location.pathname = '/contacts/1'}>
             Marcar Sessão
           </div>
           

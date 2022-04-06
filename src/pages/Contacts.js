@@ -14,17 +14,19 @@ function Contacts() {
     <>
       <Navbar/>
 
-      <div class='contacts w-100 m-0 pt-5 p-0 d-flex'>
+      <div class='contacts row flex-column-reverse flex-lg-row w-100 m-0 pt-5 p-0 d-flex align-items-center'>
 
-        <div class='form col-5 p-5 mt-5 mb-5 offset-2'>
+        <div class='form col-xl-5 col-lg-5 col-md-6 col-12 p-xl-5 p-md-3 p-4 mt-5 mb-5 offset-xl-2 offset-lg-1'>
           <h1>Contacta-me</h1>
           <h5>Se tiveres alguma dúvida ou precises de alguma informação, não hesites em mandar-me uma mensagem. <br/>Respondo o mais breve possível.</h5>
 
-          <options class='d-flex options col-7 p-2 mt-4'>
-            <button class={option == 1 ? 'option selected' : 'option'} onClick={() => setOption(1)}>Geral</button>
-            <button class={option == 2 ? 'option selected' : 'option'} onClick={() => setOption(2)}>Marcação de Aula</button>
-            <button class={option == 3 ? 'option selected' : 'option'} onClick={() => setOption(3)}>Inscrição</button>
-          </options>
+          {option != 1 ?
+            <options class='d-flex options col-7 p-2 mt-4'>
+              <button class={option == 1 ? 'option selected' : 'option'} onClick={() => setOption(1)}>Geral</button>
+              <button class={option == 2 ? 'option selected' : 'option'} onClick={() => setOption(2)}>Marcação de Aula</button>
+              <button class={option == 3 ? 'option selected' : 'option'} onClick={() => setOption(3)}>Inscrição</button>
+            </options>
+          : null}          
           
           <form class='p-3 w-100'>
 
@@ -118,7 +120,7 @@ function Contacts() {
 
         </div>
 
-        <img class='image col-4' src={image}/>
+        <img class='image col-xl-4 col-lg-5 col-12 p-0' src={image}/>
         
       </div>
 
