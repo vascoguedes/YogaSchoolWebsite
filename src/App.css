@@ -169,7 +169,7 @@
 
 .homeTheClasses .card_body:hover {
   cursor: pointer;
-  width: 100.5%;
+  filter: drop-shadow(2px 2px 5px #8f8f8fa1);
 }
 
 
@@ -281,7 +281,7 @@
 .plansPrices .table .lighter {
   font-size: 20px;
   color: #9A7F7F;
-  background-color: #CCC5C3;
+  background-color: #e8e4e3;
   font-weight: normal;
 }
 
@@ -394,6 +394,14 @@
 
 .contacts .form .left {
   float: left;
+}
+
+.contacts .button {
+  border: solid 1px #ac9393;
+}
+
+.contacts .button:hover {
+  background-color: #eaeaea;
 }
 
 /* ---------------------------------------------- 404 ------------------------------------------------ */

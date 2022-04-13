@@ -113,7 +113,7 @@ function Contacts() {
             <input type="checkbox" name='checkbox' class='formCheckBox m-3 mt-4'/>
             <label for="checkbox">Desejo receber informações de aulas e eventos futuros</label>
 
-            <button class='mt-3 w-100'>Enviar</button>
+            <button class='mt-3 w-100 p-1 button'>Enviar</button>
           </form>
 
           
