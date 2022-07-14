@@ -13,8 +13,15 @@ function AboutTheSpace() {
 
           <h1>Sobre o nosso espaço...</h1>
           <p class='pt-2'>
-          Localizado na Praceta Joaquim Fernandes Gomes, em VNGaia, este será o novo espaço do Samsara Yoga Studio ✨
-          Ainda iremos ter muito trabalhinho pela frente para que tudo fique impecável e apto a receber todas as almas maravilhosas que decidam juntar-se a mim neste novo projeto 💗
+          Localizado em Vila Nova de Gaia, o Samsara Yoga Studio nasce com a vontade
+          de levar a prática do yoga mais longe, a mais pessoas. É um espaço de união
+          e partilha, onde se aprendem não só posturas e exercícios de respiração,
+          como também valores morais e técnicas meditativas que podem ser aplicadas
+          no dia-a-dia.
+          É um espaço onde toda a gente é bem-vinda, livre de julgamentos e repleto de
+          amor e compaixão entre todos.
+          É de fácil acesso, tem uma paragem de autocarro perto e estacionamento gratuito
+          à porta e na rua.
           </p>
 
         </div>

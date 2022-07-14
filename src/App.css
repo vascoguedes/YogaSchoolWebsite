@@ -180,7 +180,7 @@
 .classes-header {
   background-image: url("./images/IMG_1532.JPG");
   width: 100%;
-  height: 650px;
+  height: 700px;
   background-size: cover;
   color: white;
 }
@@ -374,10 +374,6 @@
 
 .contacts .formInput::placeholder {
   color: #ac9393;
-  border: none;
-}
-
-.contacts .formInput::backdrop {
   border: none;
 }
 

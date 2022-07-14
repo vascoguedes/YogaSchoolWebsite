@@ -14,7 +14,7 @@ function Footer() {
           <img class='col-md-2 col-6 p-2' src={logo}/>
 
           <div class='col-md-6 col-10 rightInfo text-md-end text-center'>
-            <p>Praceta Joaquim Fernandes Gomes, Vila Nova de Gaia</p>
+            <p>Praceta Joaquim Fernandes Gomes nº76, Vila Nova de Gaia</p>
             <p>samsarayogastudio@hotmail.com</p>
             <p>+351 915102157</p>
           </div>
