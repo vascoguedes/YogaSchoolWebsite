@@ -305,17 +305,7 @@
   background-color: #9A7F7F;
 }
 
-.plansPrices .informations {
-  width: 65%;
-  margin-left: 20%;
-}
-
-.plansPrices .monthlyCharge {
-  color: #9A7F7F;
-  margin: 0 auto 0 0;
-}
-
-.plansPrices .classesPerWeek {
+.plansPrices .information {
   color: #9A7F7F;
 }
 

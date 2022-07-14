@@ -23,7 +23,7 @@ function PlansPrices() {
 
           {option ?
             <div class='box_container d-flex justify-content-center '>
-              <div class='col-md-4 col-5 p-md-3 p-1'>
+              <div class='col-md-4 col-6 p-md-3 p-1'>
                 <div class='element'>
                   <div class='top p-4'>15€</div>
                   <div class='bot p-1'>Particular</div>
@@ -34,7 +34,7 @@ function PlansPrices() {
                 </div>
               </div>
 
-              <div class='col-md-4 col-5 p-md-3 p-1'>
+              <div class='col-md-4 col-6 p-md-3 p-1'>
                 <div class='element'>
                   <div class='top p-4'>10€</div>
                   <div class='bot p-1'>Avulso</div>
@@ -65,11 +65,10 @@ function PlansPrices() {
                   <tr>
                     <th class='lighter p-3'>65€</th> <th class='lighter p-3'>60€</th> <th class='darker p-3'>livre</th>
                   </tr>
+                  <tr>
+                    <th class='p-0'><p class='information'>*valor da mensalidade</p></th> <th class='p-0'></th> <th class='p-0'><p class='information'>Aulas por semana</p></th>
+                  </tr>
                 </table>
-                <div class='d-flex informations'>
-                  <p class='monthlyCharge'>*valor da mensalidade</p>
-                  <p class='classesPerWeek'>Aulas por semana</p>
-                </div>
                 
             </div>}
 
