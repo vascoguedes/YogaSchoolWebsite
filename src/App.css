@@ -103,6 +103,10 @@
   background-color: #AA9393;
 }
 
+.home-aboutTheSpace .text {
+  color: white;
+}
+
 .home-aboutTheSpace .text >h1 {
   font-size: 50px;
 }
@@ -124,6 +128,10 @@
 
 /* ----------------- THE CLASSES ---------------- */
 
+.homeTheClasses {
+  color: #AA9393;
+}
+
 .homeTheClasses .bookClass {
 
   background-color: #9A7F7F;
@@ -143,7 +151,6 @@
 
 .homeTheClasses .cards >h1 {
   font-size: 50px !important;
-  color: #000000;
 }
 
 
@@ -199,7 +206,8 @@
 /* ----------------- ClassInfo ---------------- */
 
 .classes-classInfo .element {
-  filter: drop-shadow(2px 2px 2px #8f8f8f);
+  filter: drop-shadow(0 0 4px #8f8f8f);
+  color: #9a7f7f;
 }
 
 .classes-classInfo .element .image {
@@ -217,7 +225,7 @@
 }
 
 .classes-classInfo .right {
-  background-color: #CCC5C3;
+  background-color: #efe5e2;
 }
 
 .classes-classInfo .bookSession {
@@ -307,6 +315,7 @@
 
 .plansPrices .information {
   color: #9A7F7F;
+  font-weight: normal;
 }
 
 
@@ -314,25 +323,8 @@
 /* ---------------------------------------------- Contacts ------------------------------------------------ */
 
 .contacts {
-  width: 100%;
   background-color: #F2F2F2;
-}
-
-.contacts .form {
-  margin: 0 auto;
-}
-
-.contacts .form >h1 {
   color: #9A7F7F;
-}
-
-.contacts .form >h5 {
-  color: #9A7F7F;
-}
-
-.contacts .image {
-  margin-left: auto;
-  background-size: cover;
 }
 
 .contacts .options {
