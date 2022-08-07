@@ -3,8 +3,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar, Nav, Container } from 'react-bootstrap'
 import '../App.css';
 
-import {MdOutlineLogout} from "react-icons/md"
-
 class NavBar extends React.Component{
   render(){
 

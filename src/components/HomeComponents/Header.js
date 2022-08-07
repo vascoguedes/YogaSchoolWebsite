@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../App.css';
+import {BsFillArrowDownCircleFill} from "react-icons/bs"
 
 function Header() {
 
@@ -12,7 +13,8 @@ function Header() {
       YOGA STUDIO
       </h2>
       </h1>
-      
+
+      <a id="home-about-the-space" href="#home-about-the-space" class="arrow-down"><BsFillArrowDownCircleFill/></a>
     </div>
   );
 }

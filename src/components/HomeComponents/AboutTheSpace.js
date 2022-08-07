@@ -5,11 +5,11 @@ import schoolPic from '../../images/place.png'
 function AboutTheSpace() {
 
   return (
-    <div class="home-aboutTheSpace p-md-5 p-4 w-100">
+    <div class="d-flex w-100">
 
-      <div class='container w-100 d-flex align-items-center justify-content-center'>
+      <div class='home-aboutTheSpace col-xl-9 col-lg-8 col-12 d-flex align-items-center justify-content-center'>
 
-        <div class='text col-md-5 col-10'>
+        <div class='text col-xl-8 col-lg-10 p-lg-2 p-5'>
 
           <h1>Sobre o nosso espaço...</h1>
           <p class='pt-2'>
@@ -24,17 +24,10 @@ function AboutTheSpace() {
           à porta e na rua.
           </p>
 
-        </div>
-
-        <div class='col-md-3 d-none d-md-block picFrame offset-1 p-3'>
-
-          <div class=''>
-            <img class='schoolPic' src={schoolPic} />
-          </div>
-          
-        </div>
-      
+        </div>      
       </div>
+
+      <img class='schoolPic col-xl-3 col-lg-4 d-none d-lg-block' src={schoolPic} />
       
     </div>
   );
