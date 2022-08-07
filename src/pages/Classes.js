@@ -8,7 +8,7 @@ import ClassInfo from '../components/ClassesComponents/ClassInfo';
 import logo1 from '../images/IMG_1506.JPG';
 import logo2 from '../images/IMG_1547.JPG';
 import logo3 from '../images/IMG_1638.JPG';
-import logo4 from '../images/IMG_1580.JPG';
+import logo4 from '../images/IMG_1580_2.jpg';
 
 class Classes extends React.Component {
 
