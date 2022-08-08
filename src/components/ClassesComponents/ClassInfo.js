@@ -7,9 +7,9 @@ function ClassInfo(props) {
   return (
     <div class="classes-classInfo p-md-5 p-3 w-100" id={props.id}>
 
-      <div class='container w-100 '>
+      <div class='container'>
 
-        <div class='element row w-100 d-flex justify-content-center'>
+        <div class='element row d-flex justify-content-center'>
 
           {props.imageside ? 
             <div class='col-5 d-none d-lg-block'>
@@ -23,7 +23,7 @@ function ClassInfo(props) {
 
             <h1 class='pb-4'>{props.title}</h1>
 
-            {props.description.map((line) => <p>{line}</p>)}
+            {window.innerWidth > 991 ? props.description.map((line) => <p>{line}</p>) : <p>{props.description[0]}</p>}
             <p>{props.duration}</p>
             <p>{props.price}</p>
 
