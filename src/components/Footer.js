@@ -6,7 +6,7 @@ function Footer() {
 
   return (
     <div class="footer">
-      <div class="information container pt-4 mt-5">
+      <div class="information container pt-4">
 
         <div class='row line col-md-4 col-8 w-100' />
         
