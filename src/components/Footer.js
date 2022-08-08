@@ -10,7 +10,7 @@ function Footer() {
 
         <div class='row line col-md-4 col-8 w-100' />
         
-        <div class='row p-3 w-100 d-flex align-items-center justify-content-center'>
+        <div class='row w-100 d-flex align-items-center justify-content-center'>
           <img class='col-md-2 col-6 p-2' src={logo}/>
 
           <div class='col-md-6 col-10 rightInfo text-md-end text-center'>
@@ -21,8 +21,8 @@ function Footer() {
         </div>
 
       </div>
-      <div class="copyright d-flex justify-content-center">
-        <p class='m-2'>Copyright ©2022 Mariana Cardoso</p>
+      <div class="copyright p-1 d-flex justify-content-center">
+        Copyright ©2022 Mariana Cardoso
       </div>
     </div>
   );
