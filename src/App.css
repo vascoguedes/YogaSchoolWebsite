@@ -6,7 +6,7 @@
 }
 
 * >p {
-  font-size: 20px;
+  font-size: 1rem;
 }
 
 html, body, #root {
@@ -260,6 +260,7 @@ html, body, #root {
 /* ---------------------------------------------- Plans&Prices ------------------------------------------------ */
 
 .plansPrices {
+  min-height: 100%;
   width: 100%;
   background-color: #F2F2F2;
 }
@@ -318,13 +319,13 @@ html, body, #root {
 }
 
 .plansPrices .top {
-  font-size: 30px;
+  font-size: 1.5rem;
   color: #9A7F7F;
-  background-color: white;
+  background-color: #e8e4e3;
 }
 
 .plansPrices .bot {
-  font-size: 20px;
+  font-size: 1.2rem;
   color: white;
   background-color: #9A7F7F;
 }
@@ -335,12 +336,16 @@ html, body, #root {
 }
 
 
-
 /* ---------------------------------------------- Contacts ------------------------------------------------ */
+
+.contacts-closure {
+  min-height: 100%;
+}
 
 .contacts {
   background-color: #F2F2F2;
   color: #9A7F7F;
+  min-height: 100%;
 }
 
 .contacts .options {

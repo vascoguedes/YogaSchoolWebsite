@@ -14,11 +14,11 @@ function PlansPrices() {
     <>
       <Navbar/>
 
-      <div class='plansPrices row w-100 m-0 pt-5 p-0 d-flex'>
+      <div class='plansPrices h-auto row w-100 m-0 pt-5 p-0 d-flex'>
 
         <img class='image col-lg-5 col-md-12 p-0' src={image}/>
 
-        <div class='right mt-5 p-5 col-xxl-5 col-xl-6 col-lg-7 offset-0 offset-xl-1 text-center'>
+        <div class='right mt-5 col-xxl-5 col-xl-6 col-lg-7 offset-0 offset-xl-1 text-center'>
           <h1 class='title mb-5'>ESCOLHE O MELHOR <br/> PLANO PARA TI</h1>
 
           {option ?
@@ -72,7 +72,7 @@ function PlansPrices() {
                 
             </div>}
 
-          <div class='button1 col-sm-3 col-6 p-2 mt-5' onClick={() => setOption(!option)}>
+          <div class='button1 col-sm-3 col-6 p-2 mt-2' onClick={() => setOption(!option)}>
             {option ? 'Planos' : 'Outras Ofertas'}
           </div>
           <div class='button2 col-sm-3 col-6 mt-2 p-2 mb-5' onClick={() => window.location.pathname = '/contacts/1'}>

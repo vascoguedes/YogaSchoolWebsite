@@ -14,7 +14,7 @@ function Contacts() {
     <>
       <Navbar/>
 
-      <div class='flex-column-reverse flex-lg-row m-0 pt-5 p-0 d-flex'>
+      <div class='flex-column-reverse contacts-closure flex-lg-row m-0 pt-3 p-0 d-flex'>
 
         <div class='contacts form col-xl-7 col-lg-7 col-md-12 col-12 p-xl-5 p-md-5 p-4 align-items-center d-flex'>
           <div class='col-xl-10 col-12'>
