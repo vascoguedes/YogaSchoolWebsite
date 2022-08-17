@@ -22,7 +22,7 @@ function PlansPrices() {
           <h1 class='title mb-5'>ESCOLHE O MELHOR <br/> PLANO PARA TI</h1>
 
           {option ?
-            <div class='box_container d-flex justify-content-center '>
+            <div class='box_container d-flex justify-content-center mb-4'>
               <div class='col-md-4 col-4 p-md-3 p-1'>
                 <div class='element'>
                   <div class='top p-3'>15€</div>
@@ -36,7 +36,7 @@ function PlansPrices() {
 
               <div class='col-md-4 col-4 p-md-3 p-1'>
                 <div class='element'>
-                  <div class='top p-sm-3'>10€</div>
+                  <div class='top p-3'>10€</div>
                   <div class='bot p-1'>Avulso</div>
                 </div>
                 <div class='element mt-4'>
@@ -44,32 +44,30 @@ function PlansPrices() {
                   <div class='bot p-1'>Avulso <br/>- Yoga Restaurativo</div>
                 </div>
               </div>
-
             </div>
               :
-              <div>
-                <table class='table mt-4'>
-                  <tr>
-                    <th class='darker p-3'>Presencial</th>
-                    <th class='darker p-3'>Online</th>
-                  </tr>
-                  <tr>
-                    <th class='lighter p-3'>25€</th> <th class='lighter p-3'>20€</th> <th class='darker p-3'>1x</th>
-                  </tr>
-                  <tr>
-                    <th class='lighter p-3'>35€</th> <th class='lighter p-3'>30€</th> <th class='darker p-3'>2x</th>
-                  </tr>
-                  <tr>
-                    <th class='lighter p-3'>50€</th> <th class='lighter p-3'>45€</th> <th class='darker p-3'>3x</th>
-                  </tr>
-                  <tr>
-                    <th class='lighter p-3'>65€</th> <th class='lighter p-3'>60€</th> <th class='darker p-3'>livre</th>
-                  </tr>
-                  <tr>
-                    <th class='p-0'><p class='information'>*valor da mensalidade</p></th> <th class='p-0'></th> <th class='p-0'><p class='information'>Aulas por semana</p></th>
-                  </tr>
-                </table>
-                
+            <div>
+              <table class='table mt-4'>
+                <tr>
+                  <th class='darker p-3'>Presencial</th>
+                  <th class='darker p-3'>Online</th>
+                </tr>
+                <tr>
+                  <th class='lighter p-3'>25€</th> <th class='lighter p-3'>20€</th> <th class='darker p-3'>1x</th>
+                </tr>
+                <tr>
+                  <th class='lighter p-3'>35€</th> <th class='lighter p-3'>30€</th> <th class='darker p-3'>2x</th>
+                </tr>
+                <tr>
+                  <th class='lighter p-3'>50€</th> <th class='lighter p-3'>45€</th> <th class='darker p-3'>3x</th>
+                </tr>
+                <tr>
+                  <th class='lighter p-3'>65€</th> <th class='lighter p-3'>60€</th> <th class='darker p-3'>livre</th>
+                </tr>
+                <tr>
+                  <th class='p-0'><p class='information'>*valor da mensalidade</p></th> <th class='p-0'></th> <th class='p-0'><p class='information'>Aulas por semana</p></th>
+                </tr>
+              </table>                
             </div>}
 
           <div class='button1 col-sm-3 col-6 p-2 mt-2' onClick={() => setOption(!option)}>

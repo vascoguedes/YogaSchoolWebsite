@@ -7,7 +7,7 @@ class NavBar extends React.Component{
   render(){
 
     return(
-      <Navbar className='navbar' expand="lg" sticky="right" id="navbar">
+      <Navbar className='navbar p-2' expand="lg" sticky="right" id="navbar">
         <Container>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
