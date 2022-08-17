@@ -1,13 +1,13 @@
 import React from 'react';
 import '../../App.css';
-import schoolPic from '../../images/place.png'
+import schoolPic from '../../images/place.jpeg'
 
 function AboutTheSpace() {
 
   return (
     <div class="d-flex w-100">
 
-      <div class='home-aboutTheSpace col-xl-9 col-lg-8 col-12 d-flex align-items-center justify-content-center'>
+      <div class='home-aboutTheSpace col-xl-10 col-lg-9 col-12 d-flex align-items-center justify-content-center'>
 
         <div class='text col-xl-8 col-lg-10 p-lg-2 p-5'>
 
@@ -27,7 +27,7 @@ function AboutTheSpace() {
         </div>      
       </div>
 
-      <img class='schoolPic col-xl-3 col-lg-4 d-none d-lg-block' src={schoolPic} />
+      <img class='schoolPic col-xl-2 col-lg-3 d-none d-lg-block' src={schoolPic} />
       
     </div>
   );

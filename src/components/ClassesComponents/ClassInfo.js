@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../App.css';
-import schoolPic from '../../images/place.png'
 
 function ClassInfo(props) {
 

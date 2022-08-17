@@ -16,7 +16,7 @@ function Contacts() {
 
       <div class='flex-column-reverse contacts-closure flex-lg-row m-0 pt-3 p-0 d-flex'>
 
-        <div class='contacts form col-xl-7 col-lg-7 col-md-12 col-12 p-xl-5 p-md-5 p-4 align-items-center d-flex'>
+        <div class='contacts form col-xl-8 col-lg-7 col-md-12 col-12 p-xl-5 p-md-5 p-4 align-items-center d-flex'>
           <div class='col-xl-10 col-12'>
             <h1>Contacta-me</h1>
             <h5>Se tiveres alguma dúvida ou precises de alguma informação, não hesites em mandar-me uma mensagem. <br/>Respondo o mais breve possível.</h5>
@@ -121,7 +121,7 @@ function Contacts() {
             </div>
         </div>
 
-        <img class='image col-xl-5 col-lg-5 col-md-12 col-12 p-0' src={image}/>
+        <img class='image col-xl-4 col-lg-5 col-md-12 col-12 p-0' src={image}/>
         
       </div>
 

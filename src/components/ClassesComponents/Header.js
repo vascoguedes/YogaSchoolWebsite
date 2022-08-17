@@ -6,9 +6,7 @@ function Header() {
   return (
     <div class="classes-header mb-5 d-flex align-items-center justify-content-center text-center">
 
-      <h1>AS AULAS QUE
-        <br/> TEMOS PARA TI <br/>
-      </h1>
+      <h1>AS AULAS QUE TEMOS PARA TI</h1>
       
     </div>
   );
