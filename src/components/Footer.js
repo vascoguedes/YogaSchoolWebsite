@@ -19,7 +19,7 @@ function Footer() {
             <p>Praceta Joaquim Fernandes Gomes nº76, Vila Nova de Gaia</p>
             <p>samsarayogastudio@hotmail.com</p>
             <p className='phone-number'>+351 915102157</p>
-            <a href="https://www.instagram.com/samsara.yogastudio/" target="_blank" className='instagram_logo'>Find me on <AiOutlineInstagram/></a>
+            <a href="https://www.instagram.com/samsara.yogastudio/" target="_blank" className='instagram_logo'><AiOutlineInstagram/></a>
           </div>
         </div>
 

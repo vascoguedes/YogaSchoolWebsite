@@ -88,7 +88,7 @@ html, body, #root {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1300px) {
   .home-header {
     background-image: url("./images/IMG_15652.jpg");
     font-size: 2vw;
@@ -412,6 +412,10 @@ html, body, #root {
   object-fit: cover;
 }
 
+.contacts .error_message {
+  color: red;
+}
+
 /* ---------------------------------------------- 404 ------------------------------------------------ */
 .NotFoundPage{
   background-color: #F2F2F2 ;
@@ -439,4 +443,28 @@ html, body, #root {
   object-fit: contain;
   padding-right: 3em;
   
+}
+
+/* ---------------------------------------------- COMPONENT ---------------------------------------------- */
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.loading-spinner {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #AA9393;
+  border-radius: 50%;
+  animation: spinner 1.5s linear infinite;
+}
+
+.loading-spinner {
+  display: flex;
+  margin: 0 auto;
 }

@@ -2,13 +2,37 @@ import React, { useState } from 'react';
 import '../App.css';
 import Navbar from '../components/Navbar.js'
 import Footer from '../components/Footer';
+import LoadingSpinner from '../components/loadingspinner';
 
-import image from '../images/IMG_1580_2.jpg'
+import image from '../images/IMG_1580_2.jpg';
+import emailjs from 'emailjs-com';
 
 function Contacts() {
 
     const [option, setOption] = useState(window.location.pathname.charAt(10));
-    console.error(option);
+    const [errorMessage, setErrorMessage] = useState('');
+    const [loading, setLoading] = useState(false);
+
+    emailjs.init('9SeuM_lDQHLxzSSEA');
+
+    window.onload = function() {
+      const contact_form = document.getElementById('contact-form');
+
+      contact_form.addEventListener('submit', function(event) {
+          setLoading(true);
+          event.preventDefault();
+
+          // these IDs from the previous steps
+          emailjs.sendForm('service_kd4ypke', 'template_zy3bjiw', this)
+              .then(function() {
+                  setLoading(false);
+                  contact_form.reset();
+              }, function(error) {
+                  setLoading(false);
+                  setErrorMessage('Erro, contacte diretamente pelo email')
+              });
+      });
+    }
 
     return (
     <>
@@ -29,15 +53,15 @@ function Contacts() {
               </options>
             : null}          
             
-            <form class='p-3 w-100'>
+            <form class='p-3 w-100' id="contact-form">
 
               {option == 1 ? 
 
                 <>
-                  <input class='formInput w-100' placeholder='Nome'/>
-                  <input class='formInput w-100' placeholder='Telefone'/>
-                  <input class='formInput w-100' placeholder='Email'/>
-                  <textarea class='formInput w-100' placeholder='A tua mensagem'/>
+                  <input name="from_name" class='formInput w-100' placeholder='Nome' required/>
+                  <input name='phone_number' class='formInput w-100' placeholder='Telefone' type="number" required/>
+                  <input name='reply_to' class='formInput w-100' placeholder='Email' type="email" required/>
+                  <textarea name='message' class='formInput w-100' placeholder='A tua mensagem' required/>
                 </>
 
                 :
@@ -114,7 +138,8 @@ function Contacts() {
               <input type="checkbox" name='checkbox' class='formCheckBox m-3 mt-4'/>
               <label for="checkbox">Desejo receber informações de aulas e eventos futuros</label>
 
-              <button class='mt-3 w-100 p-1 button'>Enviar</button>
+              <p className='error_message'>{errorMessage}</p>
+              <button type="submit" class='mt-3 w-100 p-1 button'>{loading ? <LoadingSpinner/> : 'Enviar'}</button>
             </form>
 
           
