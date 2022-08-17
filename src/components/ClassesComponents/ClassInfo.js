@@ -17,7 +17,8 @@ function ClassInfo(props) {
 
             </div> : null
           }
-
+          
+          {console.error(window.innerWidth, window.innerWidth <= 991)}
           
           {(window.innerWidth <= 991) ?
             <div class='col-12 p-0 h-25'>
