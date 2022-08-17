@@ -19,12 +19,12 @@ function ClassInfo(props) {
           }
 
           
-          {window.innerWidth <= 991 ?
-            (<div class='col-12 p-0 h-25'>
+          {(window.innerWidth <= 991) ?
+            <div class='col-12 p-0 h-25'>
 
               <img class='image w-100 h-100' src={props.image} />
 
-            </div>) : null
+            </div> : null
           }
           
           <div class='col-lg-7 col-12 right p-lg-5 p-3 text-center align-self-center'>
