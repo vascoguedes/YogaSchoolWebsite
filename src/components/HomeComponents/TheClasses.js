@@ -59,7 +59,7 @@ function TheClasses() {
             </Carousel> 
       </div>
 
-      <div class='bookClass col-lg-3 col-md-4 col-6 mt-md-5 mt-2 p-3' onClick={() => window.location.pathname = '/contacts/1'}>
+      <div class='bookClass col-lg-3 col-md-4 col-6 mt-md-5 mt-2 mb-3 p-3' onClick={() => window.location.pathname = '/contacts/1'}>
         Marcar aula
       </div>
 
