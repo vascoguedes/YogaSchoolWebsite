@@ -23,24 +23,24 @@ function PlansPrices() {
 
           {option ?
             <div class='box_container d-flex justify-content-center '>
-              <div class='col-md-4 col-6 p-md-3 p-1'>
+              <div class='col-md-4 col-4 p-md-3 p-1'>
                 <div class='element'>
-                  <div class='top p-4'>15€</div>
+                  <div class='top p-3'>15€</div>
                   <div class='bot p-1'>Particular</div>
                 </div>
                 <div class='element mt-4'>
-                  <div class='top p-4'>10€</div>
+                  <div class='top p-3'>10€</div>
                   <div class='bot p-1'>Particular <br/>- Yoga Restaurativo</div>
                 </div>
               </div>
 
-              <div class='col-md-4 col-6 p-md-3 p-1'>
+              <div class='col-md-4 col-4 p-md-3 p-1'>
                 <div class='element'>
-                  <div class='top p-4'>10€</div>
+                  <div class='top p-sm-3'>10€</div>
                   <div class='bot p-1'>Avulso</div>
                 </div>
                 <div class='element mt-4'>
-                  <div class='top p-4'>5€</div>
+                  <div class='top p-3'>5€</div>
                   <div class='bot p-1'>Avulso <br/>- Yoga Restaurativo</div>
                 </div>
               </div>
