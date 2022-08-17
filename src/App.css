@@ -63,6 +63,11 @@ html, body, #root {
 
 .footer .instagram_logo {
   color: white;
+  font-size: 1rem;
+}
+
+.footer .phone-number {
+  color: white;
 }
 
 /* ---------------------------------------------- Home ------------------------------------------------ */
