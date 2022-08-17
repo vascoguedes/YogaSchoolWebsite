@@ -10,10 +10,18 @@ function ClassInfo(props) {
 
         <div class='element row d-flex justify-content-center'>
 
-          {props.imageside ? 
+          {props.imageside ?
             <div class='col-5 d-none d-lg-block'>
 
               <img class='image w-100' src={props.image} />
+
+            </div> : null
+          }
+
+          {window.innerWidth <= 991 ?
+            <div class='col-12 p-0 h-25'>
+
+              <img class='image w-100 h-100' src={props.image} />
 
             </div> : null
           }
