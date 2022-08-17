@@ -22,7 +22,7 @@ function ClassInfo(props) {
 
             <h1 class='pb-4'>{props.title}</h1>
 
-            {window.innerWidth > 991 ? props.description.map((line) => <p>{line}</p>) : <p>{props.description[0]}</p>}
+            {window.innerWidth > 991 ? props.description.map((line) => <p>{line}</p>) : props.mobile.map((line) => <p>{line}</p>)}
             <p>{props.duration}</p>
             <p>{props.price}</p>
 
