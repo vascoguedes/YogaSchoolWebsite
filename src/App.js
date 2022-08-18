@@ -6,6 +6,7 @@ import NotFoundPage from './pages/NotFoundPage';
 import Classes from './pages/Classes';
 import PlansPrices from './pages/PlansPrices';
 import Contacts from './pages/Contacts';
+import SiteMap from './sitemap.xml';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
           <Route path='/contacts/1' exact component={Contacts} />
           <Route path='/contacts/2' exact component={NotFoundPage} />
           <Route path='/contacts/3' exact component={NotFoundPage} />
+          <Route path='/sitemap.xml' exact component={SiteMap} />
           <Route path="/404" component={NotFoundPage} />
           <Redirect to="/404" />
         </Switch>
