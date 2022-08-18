@@ -1,5 +1,4 @@
 import React from 'react';
-import '../App.css';
 import logo from '../images/logo.webp';
 
 import {AiOutlineInstagram} from 'react-icons/ai';

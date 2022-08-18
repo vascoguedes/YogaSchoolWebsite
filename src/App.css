@@ -419,6 +419,7 @@ html, body, #root {
 /* ---------------------------------------------- 404 ------------------------------------------------ */
 .NotFoundPage{
   background-color: #F2F2F2 ;
+  min-height: 100%;
 
 }
 .NotFoundPage .text{

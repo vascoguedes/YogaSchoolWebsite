@@ -1,7 +1,6 @@
 import React from 'react'
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar, Nav, Container } from 'react-bootstrap'
-import '../App.css';
 
 class NavBar extends React.Component{
   render(){
