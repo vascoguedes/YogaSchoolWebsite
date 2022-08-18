@@ -27,7 +27,7 @@ function AboutTheSpace() {
         </div>      
       </div>
 
-      <img class='schoolPic col-xl-2 col-lg-3 d-none d-lg-block' src={schoolPic} />
+      <img class='schoolPic col-xl-2 col-lg-3 d-none d-lg-block' alt='Fotografia do espaço' src={schoolPic} />
       
     </div>
   );

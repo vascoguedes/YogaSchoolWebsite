@@ -13,14 +13,14 @@ function ClassInfo(props) {
           {props.imageside ?
             <div class='col-5 d-none d-lg-block'>
 
-              <img class='image w-100' src={props.image} />
+              <img class='image w-100' alt='Fotografia associada à aula' src={props.image} />
 
             </div> : null
           }
           
           <div class='col-12 p-0 h-25 d-lg-none d-block'>
 
-            <img class='image w-100 h-100' src={props.image} />
+            <img class='image w-100 h-100' alt='Fotografia associada à aula' src={props.image} />
 
           </div>
 
@@ -42,7 +42,7 @@ function ClassInfo(props) {
           {!props.imageside ? 
             <div class='col-5 d-none d-lg-block'>
 
-              <img class='image w-100' src={props.image} />
+              <img class='image w-100' alt='Fotografia associada à aula' src={props.image} />
 
             </div> : null
           }

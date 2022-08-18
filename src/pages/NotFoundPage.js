@@ -15,7 +15,7 @@ class NotFoundPage extends React.Component {
         <h1> Ups...</h1>
         <h3> Página não encontrada</h3>
       </div>
-      <img class='image col-6 text-right' src={image}/>
+      <img class='image col-6 text-right' alt='Fotografia de erro' src={image}/>
     </div>
     
     <Footer/>

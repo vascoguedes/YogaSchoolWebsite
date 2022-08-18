@@ -8,7 +8,7 @@ function CardItem(props) {
 
       <div class='card_body' onClick={() => window.location.href = '/classes#' + props.id}>
 
-        <img class='card_image' src={props.image}/>
+        <img class='card_image' alt='Fotografia de uma aula' src={props.image}/>
 
         <div class='card_tag p-3'>
           <h4 class='m-0'>{props.name}</h4>

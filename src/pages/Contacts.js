@@ -146,7 +146,7 @@ function Contacts() {
             </div>
         </div>
 
-        <img class='image col-xl-4 col-lg-5 col-md-12 col-12 p-0' src={image}/>
+        <img class='image col-xl-4 col-lg-5 col-md-12 col-12 p-0' alt='Fotografia a fazer Yoga' src={image}/>
         
       </div>
 
